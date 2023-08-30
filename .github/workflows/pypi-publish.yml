@@ -26,7 +26,6 @@ jobs:
       run: >-
         python -m
         build
-        --packages="nonebot_plugin_helper_plus"
         --sdist
         --wheel
         --outdir dist/
