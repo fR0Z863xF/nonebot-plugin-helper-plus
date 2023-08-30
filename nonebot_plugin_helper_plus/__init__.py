@@ -21,7 +21,7 @@ __plugin_meta__ = PluginMetadata(
     usage="写好配置文件",
     type="application",
     config=Config,
-    extra={"version": "0.1.1a"},
+    extra={"version": "0.1.1b"},
 )
 
 
