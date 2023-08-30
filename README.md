@@ -53,11 +53,28 @@ _✨ NoneBot 带有阻断（屏蔽）指定群聊 消息/指令 功能的helper�
 
 ## ⚙️ 配置
 
+
+在data/helper/目录下添加配置文件：  
+
+- [config.json](./ConfigExample/config.json) 默认配置，仅存帮助信息。
+- 群号.json 受控制的群聊配置
+
+配置文件说明：
+
+- mode ：模式，黑白名单
+- whitelist/blacklist ：具体规则。
+- regex ：正则匹配
+- command ：命令匹配
+- time_span ：限定时间段匹配
+
+示例：[白名单](./ConfigExample/白名单示例.json)，[黑名单](./ConfigExample/黑名单示例.json)
+
+
 在 nonebot2 项目的`.env`文件中添加下表中的必填配置
 
 | 配置项 | 必填 | 类型 | 默认值 | 说明 |
 |:-----:|:----:|:----:|:----:|:----:|
-| rule_group | 是 | List[str] | 空列表 | 启用屏蔽规则的群聊（请先写好配置文件） |
+| rule_group | 是 | List[str] | 空列表 | 启用规则的群聊（请先写好[配置文件](./ConfigExample/)） |
 
  
 

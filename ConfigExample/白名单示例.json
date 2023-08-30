@@ -1,0 +1,28 @@
+{
+    "mode":"whitelist",
+    "whitelist":{
+        "regex":["^[A-Za-z]+$"],
+        "command":["help"],
+        "time_span":{
+            "1030-2200":{
+                "regex":["^[\u4e00-\u9fa5]{0,}"],
+                "command":["2222333333333"]
+            },
+            "2200-2359":{
+                "regex":["^[\u4e00-\u9fa5]$"],
+                "command":["123456"]
+            }
+            
+        }
+    },
+    "plugins":[
+        {
+	    "name":"1",
+	    "info":"2"
+	    },
+        {
+            "name": "3",
+            "info": "4"
+        }
+    ]
+}
