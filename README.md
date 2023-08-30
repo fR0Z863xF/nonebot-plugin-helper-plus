@@ -43,21 +43,7 @@ _✨ NoneBot 带有阻断（屏蔽）指定群聊 消息/指令 功能的helper�
 
     pip install nonebot-plugin-helper-plus
 </details>
-<details>
-<summary>pdm</summary>
 
-    pdm add nonebot-plugin-helper-plus
-</details>
-<details>
-<summary>poetry</summary>
-
-    poetry add nonebot-plugin-helper-plus
-</details>
-<details>
-<summary>conda</summary>
-
-    conda install nonebot-plugin-helper-plus
-</details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
