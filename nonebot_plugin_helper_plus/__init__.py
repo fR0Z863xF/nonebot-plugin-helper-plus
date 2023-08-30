@@ -18,10 +18,11 @@ import re,os,time
 __plugin_meta__ = PluginMetadata(
     name="helper_plus",
     description="带有指令调用控制的高级helper",
+    homepage="https://github.com/fR0Z863xF/nonebot-plugin-helper-plus",
     usage="写好配置文件",
     type="application",
     config=Config,
-    extra={"version": "0.1.3"},
+    extra={"version": "0.1.4"},
 )
 
 
