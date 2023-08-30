@@ -1,12 +1,12 @@
 [project]
 name = "nonebot-plugin-helper-plus"
-version = "0.1.1a"
+version = "0.1.1b"
 description = "带有阻断（屏蔽）指定群聊 消息/指令 功能的helper。"
 authors = [
     {name = "fR0Z863xF"},
 ]
 license = {file = "LICENSE"}
-dependencies = ["nonebot2>=2.0.0rc2","nonebot-adapter-onebot>=2.1.0"]
+dependencies = ["nonebot2>=2.0.0","nonebot-adapter-onebot>=2.1.0"]
 requires-python = ">=3.8"
 readme = {file = "README.md", content-type = "text/markdown"}
 
