@@ -26,6 +26,7 @@ jobs:
       run: >-
         python -m
         build
+        --find_packages(exclude=["ConfigExample"])
         --sdist
         --wheel
         --outdir dist/
