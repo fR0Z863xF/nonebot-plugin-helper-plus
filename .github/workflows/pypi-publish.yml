@@ -26,7 +26,7 @@ jobs:
       run: >-
         python -m
         build
-        --find_packages(exclude=["ConfigExample"])
+        --packages="nonebot_plugin_helper_plus"
         --sdist
         --wheel
         --outdir dist/
