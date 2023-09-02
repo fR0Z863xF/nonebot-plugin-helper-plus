@@ -20,9 +20,10 @@ __plugin_meta__ = PluginMetadata(
     description="带有指令调用控制的高级helper",
     homepage="https://github.com/fR0Z863xF/nonebot-plugin-helper-plus",
     usage="写好配置文件",
+    supported_adapters={"~onebot.v11"},
     type="application",
     config=Config,
-    extra={"version": "0.1.4"},
+    extra={"version": "0.1.5"},
 )
 
 
