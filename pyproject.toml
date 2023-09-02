@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-helper-plus"
-version = "0.1.4"
+version = "0.1.5"
 description = "带有阻断（屏蔽）指定群聊 消息/指令 功能的helper。"
 authors = [
     {name = "fR0Z863xF"},
