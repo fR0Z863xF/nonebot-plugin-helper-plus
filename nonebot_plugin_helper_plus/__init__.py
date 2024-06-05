@@ -23,7 +23,7 @@ __plugin_meta__ = PluginMetadata(
     supported_adapters={"~onebot.v11"},
     type="application",
     config=Config,
-    extra={"version": "0.1.6"},
+    extra={"version": "0.1.7"},
 )
 
 
