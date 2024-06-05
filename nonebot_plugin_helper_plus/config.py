@@ -6,7 +6,7 @@ from typing import List
 
 class Config(BaseModel, extra=Extra.ignore):
     
-    config_path=Path() / "data" / "helper"
+    config_path: Path=Path() / "data" / "helper"
     rule_group: List[str]=[]
     '''
     def __init__(self,**data):
